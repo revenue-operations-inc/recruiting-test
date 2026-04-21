@@ -1,0 +1,68 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Next.js
+.next
+.next-build
+next-env.d.ts
+out
+
+# Build artifacts
+dist
+build
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Environment / secrets
+.env
+.env*.local
+.env.development
+.env.production
+!.env.example
+
+# Logs
+*.log
+dev.log
+dev-prev.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime / process files
+.shoreman.pid
+*.pid
+*.seed
+*.pid.lock
+
+# Supabase local state
+supabase/.branches
+supabase/.temp
+
+# Debug / scratch output
+debug-*.json
+namespace.jsonl
+
+# Data files (often PII / large fixtures — allow opt-in via !path)
+fake-contacts.csv
+*.csv
+!tests/**/*.csv
+!public/**/*.csv
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.swp
+*.swo
+
+# Test / coverage
+coverage
+.nyc_output
+
+# Misc
+.cache
+.turbo
+.vercel
