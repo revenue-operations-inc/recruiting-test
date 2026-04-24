@@ -1,4 +1,4 @@
-# Recruiting Exercise — Outbound Sub-Agent System
+# Recruiting Exercise — Outbound Agent System
 
 ## The exercise
 
@@ -120,8 +120,8 @@ end-to-end call sequence against one target.
 
 You don't need to write the code. Hand back:
 
-- **A simple agent diagram.** A graph showing the agents you'd build and the
-  sub-agents each one launches. Keep it readable — boxes and arrows are fine.
+- **A simple agent diagram.** A graph showing the agents you'd build, the
+  agents each one launches, and whether execution is deterministic or dynamic.
 - **Why you're building each agent.** For every agent in the diagram, a sentence or
   two on what it's responsible for and why it exists as its own agent.
 - **Your assumptions.** What you think is important for this problem, what you're
